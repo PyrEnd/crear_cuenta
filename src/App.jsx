@@ -1,12 +1,16 @@
+import React, { useState } from 'react'
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Registro from './componentes/Registro'
 
 
-function App() {
-
+const App = ()=> {
+  const [alert, setAlert] = useState({msg:"", color: ""})
 
   return (
     <>
-      <h1>Hola</h1>
+      
+      <Registro alert={alert} setAlert={setAlert} />
     </>
   )
 }
