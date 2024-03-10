@@ -10,7 +10,6 @@ const Formulario = ({setAlert}) => {
     const validate = (e) => {
         e.preventDefault();
 
-
         if(
         nombre.trim() === "" || 
         email.trim() === "" || 
@@ -31,7 +30,7 @@ const Formulario = ({setAlert}) => {
             setEmail("")
             setPassword("")
             setConfirmPassword("")
-    };
+        };
 
     return (
         <>

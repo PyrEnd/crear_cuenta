@@ -1,5 +1,3 @@
-import React from "react"
-
 const SocialButton = ({icon}) =>  {
   return (
     <div className="d-flex justify-content-around pb-4">
